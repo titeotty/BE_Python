@@ -1,7 +1,11 @@
 def bmi(height, weight):
     return (weight / (height/100)**2 )  
     
-h, w = input('당신의 키(cm)와 몸무게(kg)는? >> ').split() 
+def something():
+    return 1, 2, 3
+
+a, b, c = something()
+h, w = input('당신의 키(cm)와 몸무게(kg)는? >> ').split() #split으로 나눌 시 float로 변경해줘야함
 #h, w = 169, 66
 height = float(h)  
 weight = float(w)

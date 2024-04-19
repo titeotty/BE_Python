@@ -1,3 +1,5 @@
+month = 0
+
 month = int(input('월 입력 ? '))
 if 11 <= month <= 12 or 1 <= month <= 3:
     print('%d월 겨울' % month)

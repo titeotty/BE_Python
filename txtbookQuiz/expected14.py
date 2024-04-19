@@ -1,7 +1,7 @@
 #import random
 from random import randint
-#while True:
-do:
+while True:
+# do:
     #num1 = random.randint(1, 99);
     #num2 = random.randint(1, 99);
     #num1 = randint(1, 99);
@@ -11,9 +11,13 @@ do:
     print('%d * %d = %d' % (num1, num2, result))
     print()
     more = input('계속 y / n ? ')
-'''
-    if more in 'nN':
-    #if more == "n" or more == "N":
+    if more == "n" or more == "N":
         break
-'''
-while more not in 'nN'
+
+
+# '''
+#     if more in 'nN':
+#     #if more == "n" or more == "N":
+#         break
+# '''
+# while more not in 'nN'

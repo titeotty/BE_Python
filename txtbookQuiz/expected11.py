@@ -10,4 +10,4 @@ if max3 < n3:
     max3 = n3
 print('%d %d %d 중에서 최대: %d' % (n1, n2, n3, max3))
 
-print("두번째 결과는 ", max(n1, n2, n3))
+print("두번째 결과는 ", max(n1, n2, n3))    
