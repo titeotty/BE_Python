@@ -1,9 +1,10 @@
-def primeNumber(n) :
-    cnt = True
+def primeNumber(n):
+    if n <= 1:
+        return False
     for i in range(2, n // 2 + 1):
         if n % i == 0:
-            cnt = False
-            break
+            return False
+    return True
 
 n = int(input('소수(prime number)인지를 판별한 2 이상의 정수 입력 >> '))
 # cnt = 2

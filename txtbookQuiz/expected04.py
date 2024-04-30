@@ -6,5 +6,5 @@ print(url[index: index + len('docs.python.org')])
 
 index = url.rfind('/') + 1
 print(url[index:])
-print(url.find('z'))
-print(url.rfind('z'))
+print(url.find('d'))
+print(url.rfind('d'))
