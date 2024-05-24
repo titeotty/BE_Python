@@ -7,11 +7,10 @@ def cal_avg_sum(num):
     return avg, total
 
 # 입력을 리스트로 변환
-user_input = input("숫자들을 입력하세요: ")
-user_input_list = user_input.split()
+user_input = input("숫자들을 입력하세요: ").split()
 
 numbers = []
-for item in user_input_list:
+for item in user_input:
     numbers.append(int(item))
 
 avg, total = cal_avg_sum(numbers)
