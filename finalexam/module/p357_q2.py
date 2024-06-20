@@ -1,4 +1,3 @@
-
 '''
 모듈 math의 factorial(), 
 모듈 statistics의 median(), mean(), variance(), stdev() 함수를 사용
